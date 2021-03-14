@@ -1,0 +1,28 @@
+.category{
+    display: flex;
+    margin-top: 32px;
+    width: 100%;
+  
+    
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.category>div{
+    margin-left: 30px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    opacity: .9;
+    padding:20px;
+}
+
+.category>div:hover{
+    background-color: peru;
+    transition-property: all;
+    transition-duration: 0.3s;
+    
+}
